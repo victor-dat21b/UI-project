@@ -5,6 +5,26 @@
 body {
     text-align: center;
 }
+
+.content-box {
+    margin: 30px;
+    clear: both;
+}
+
+.text-with-image {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+}
+
+.img-float-right {
+    float: right;
+}
+
+.img-float-left {
+    float: left;
+}
+
 .wrapper {
     width: 1170px;
     margin: 0 auto;
