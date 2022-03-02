@@ -35,6 +35,7 @@ header {
     width: 100%;
     z-index: 10;
     position: fixed;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 .logo {
     width: 20%;
@@ -46,8 +47,13 @@ header {
     font-size: 30px;
     font-style: italic;
     font-family: Ubuntu;
-    color: aqua;
+    color: #abcb5e;
     letter-spacing: 5px;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
 }
 nav {
     float: right;
@@ -84,7 +90,7 @@ nav a:hover {
 nav a::before {
     content: '';
     display: block;
-    height: 5px;
+    height: 2px;
     background-color: #abcb5e;
     position: absolute;
     top: 60px;
@@ -112,13 +118,17 @@ nav a:hover:before {
     font-family: sans-serif;
     text-transform: uppercase;
     color: white;
+    text-shadow:
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            2px 2px 0 #000;
 }
 .content-area {
     width: 100%;
     position: relative;
     top: 450px;
     background: #ebebeb;
-    height: 1500px;
 }
 .content-area h2 {
     font-family: sans-serif;
@@ -128,7 +138,14 @@ nav a:hover:before {
     margin: 0;
 }
 .content-area p {
-    padding: 2% 0px;
+    padding: 2% 0;
     font-family: sans-serif;
     line-height: 30px;
+}
+
+footer {
+    background: #262626;
+    height: 300px;
+    width: 100%;
+    top: 700px;
 }
