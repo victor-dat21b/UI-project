@@ -26,4 +26,14 @@ public class FoodController {
             return "virksomhed";
       }
 
+      @GetMapping("/Om-os")
+      public String omOs(){
+            return "omOs";
+      }
+
+      @GetMapping("/Hjælp")
+      public String hjælp(){
+            return "hjælp";
+      }
+
 }
