@@ -11,4 +11,29 @@ public class FoodController {
             return "frontpage";
       }
 
+      @GetMapping("/Privatperson")
+      public String privatPerson(){
+            return "privatPerson";
+      }
+
+      @GetMapping("/Organisation")
+      public String organisation(){
+            return "organisation";
+      }
+
+      @GetMapping("/Virksomhed")
+      public String virksomhed(){
+            return "virksomhed";
+      }
+
+      @GetMapping("/Om-os")
+      public String omOs(){
+            return "omOs";
+      }
+
+      @GetMapping("/Hjælp")
+      public String hjælp(){
+            return "hjælp";
+      }
+
 }
