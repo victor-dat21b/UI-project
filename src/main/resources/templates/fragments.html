@@ -1,3 +1,16 @@
+<head th:fragment="header">
+    <meta charset="UTF-8">
+    <title>Red Maden</title>
+    <link href="../static/styling.css" rel="stylesheet">
+    <link th:href="@{/styling.css}" rel="stylesheet">
+    <link rel="icon" href="https://www.pngall.com/wp-content/uploads/2016/05/Salad-PNG-Image.png">
+    <link rel="icon" th:href="@{https://www.pngall.com/wp-content/uploads/2016/05/Salad-PNG-Image.png}">
+</head>
+
+<div th:fragment="logo" class="logo">
+    <a href="/">Red Maden</a>
+</div>
+
 <div th:fragment="navbar" class="container">
     <nav>
         <ul>
