@@ -55,6 +55,20 @@ header {
             -1px 1px 0 #000,
             1px 1px 0 #000;
 }
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+img.front-page {
+    width: 50%;
+    height: 25%;
+}
+
 nav {
     float: right;
     line-height: 100px;
