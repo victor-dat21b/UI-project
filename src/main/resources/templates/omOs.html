@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="fragments :: header"></head>
 <body>
+<div class="box-area">
+    <header>
+        <div class="wrapper">
+            <div th:replace="fragments :: logo"></div>
+
+            <div th:replace="fragments :: navbar"></div>
+
+        </div>
+    </header>
+    <div class="banner-area" style="background-image: url(https://images8.alphacoders.com/115/thumb-1920-1156488.png)">
+    </div>
+    <div class="content-area">
+        <div class="wrapper">
+            <h2>Om Os</h2>
+
+            <div>
+                <div class="container">
+                    <div class="row clearfix">
+                        <div class="col-md-12 column">
+                            <div>
+                                <hr class="solid" style="border-color:#ccc">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda dolore, dolorem harum in iste laboriosam laudantium minus nemo nisi nobis nostrum officiis pariatur placeat quis reprehenderit unde voluptatum? Tenetur.
+                </p>
+            </div>
+
+        </div>
+        <footer th:replace="fragments :: footer"> </footer>
+    </div>
+
+</div>
 
 </body>
 </html>

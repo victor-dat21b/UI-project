@@ -132,9 +132,9 @@ nav a:hover:before {
 }
 
 .banner-area h2 {
-    padding-top: 8%;
     font-size: 60px;
     font-family: sans-serif;
+    padding: 12%;
     text-transform: uppercase;
     color: white;
     text-shadow:
