@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
-<head th:replace="fragments :: header(title='red maden')"></head>
+<head th:replace="fragments :: header(~{::title})">
+    <title>Red maden</title>
+</head>
 <body>
 <div class="box-area">
     <header>

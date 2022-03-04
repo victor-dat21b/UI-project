@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Red Maden</title>
-    <link href="../static/styling.css" rel="stylesheet">
-    <link th:href="@{/styling.css}" rel="stylesheet">
-    <link rel="icon" href="https://www.pngall.com/wp-content/uploads/2016/05/Salad-PNG-Image.png">
-    <link rel="icon" th:href="@{https://www.pngall.com/wp-content/uploads/2016/05/Salad-PNG-Image.png}">
+<head th:replace="fragments :: head(~{::title})">
+    <title>Virksomhed</title>
 </head>
 <body>
 <div class="box-area">
