@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
-<head th:replace="fragments :: header"></head>
+<head th:replace="fragments :: header(title='red maden')"></head>
 <body>
 <div class="box-area">
     <header>
@@ -79,6 +79,7 @@
                     hic ipsa iusto libero minus natus neque nisi nobis nostrum odio optio pariatur perspiciatis
                     praesentium rerum sapiente.</p>
             </div>
+            <a th:href="@{Virksomhed}"><button class="button-style">Læs mere her</button></a>
         </div>
 
         <div style="padding-bottom: 50px; padding-top: 50px">
@@ -105,6 +106,7 @@
                     praesentium rerum sapiente.</p>
             </div>
             <a href="#"><img class="float-right" src="download.jpeg" alt=""></a>
+            <a th:href="@{Organisation}"><button class="button-style">Læs mere her</button></a>
         </div>
 
     </div>
