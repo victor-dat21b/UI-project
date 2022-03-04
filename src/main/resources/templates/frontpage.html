@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
-<header th:replace="fragments :: header"></header>
+<head th:replace="fragments :: header"></head>
 <body>
 <div class="box-area">
-    <header>
+    <head>
         <div class="wrapper">
             <div th:replace="fragments :: logo"></div>
 
             <div th:replace="fragments :: navbar"></div>
         </div>
-    </header>
+    </head>
 </div>
 
 <div class="banner-area">
@@ -40,7 +40,7 @@
 
         <div class="content-box">
             <div class="text-with-image text-align-left">
-                <h3>For den daglige forbruger</h3>
+                <h3>Til dig som er privat person</h3>
                 <p>Vi har samlet information om hvordan den almindelige dansker kan reducere deres madspild i hjemmet læs voeres 7 hurtige råd eller klik på linket for mere information</p>
                 <ol>
                     <li>Planlæg mad indkøb.</li>
@@ -50,8 +50,9 @@
                     <li>Undgå madspild under madlavningen.</li>
                     <li>Brug dine rester.</li>
                 </ol>
+                <a th:href="@{Privatperson}"><button>Læs mere</button></a>
             </div>
-            <a href="#"><img class="float-right front-page" th:src="@{privatPerson.jpeg}" alt=""></a>
+            <a th:href="@{Privatperson}"><img class="float-right front-page" th:src="@{privatPerson.jpeg}" alt=""></a>
         </div>
 
         <div style="padding-bottom: 50px; padding-top: 50px">

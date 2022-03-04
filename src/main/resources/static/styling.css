@@ -6,6 +6,11 @@ body {
     text-align: center;
 }
 
+a.no-colour {
+    color: black;
+    text-decoration: underline;
+}
+
 .content-box {
     margin: 30px;
 }
