@@ -3,13 +3,13 @@
 <head th:replace="fragments :: header"></head>
 <body>
 <div class="box-area">
-    <head>
+    <header>
         <div class="wrapper">
             <div th:replace="fragments :: logo"></div>
 
             <div th:replace="fragments :: navbar"></div>
         </div>
-    </head>
+    </header>
 </div>
 
 <div class="banner-area">
@@ -50,7 +50,7 @@
                     <li>Undgå madspild under madlavningen.</li>
                     <li>Brug dine rester.</li>
                 </ol>
-                <a th:href="@{Privatperson}"><button>Læs mere</button></a>
+                <a th:href="@{Privatperson}"><button class="button-style">Læs mere her</button></a>
             </div>
             <a th:href="@{Privatperson}"><img class="float-right front-page" th:src="@{privatPerson.jpeg}" alt=""></a>
         </div>
