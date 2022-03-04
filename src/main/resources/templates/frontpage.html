@@ -79,6 +79,7 @@
                     hic ipsa iusto libero minus natus neque nisi nobis nostrum odio optio pariatur perspiciatis
                     praesentium rerum sapiente.</p>
             </div>
+            <a th:href="@{Virksomhed}"><button class="button-style">Læs mere her</button></a>
         </div>
 
         <div style="padding-bottom: 50px; padding-top: 50px">
@@ -105,19 +106,12 @@
                     praesentium rerum sapiente.</p>
             </div>
             <a href="#"><img class="float-right" src="download.jpeg" alt=""></a>
+            <a th:href="@{Organisation}"><button class="button-style">Læs mere her</button></a>
         </div>
 
     </div>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <h2>Om Os</h2>
-            <p>Troels kan godt lide switches</p>
-            <p>Victor sover trygt</p>
-            <p>Lasse er forvirret</p>
-            <p>David er sej</p>
-        </div>
-    </footer>
+    <footer th:replace="fragments :: footer"> </footer>
 </div>
 
 </body>
