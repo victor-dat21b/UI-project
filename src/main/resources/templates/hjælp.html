@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:insert="fragments :: header">
 </head>
 <body>
+<div class="box-area">
+    <header>
+        <div class="wrapper">
+            <div th:replace="fragments :: logo"></div>
+
+            <div th:replace="fragments :: navbar"></div>
+        </div>
+    </header>
+</div>
+
+<div class="banner-area" style="background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/10/23/57899/question-mark-01.jpg)">
+</div>
+<div class="content-area">
+    <div class="wrapper">
+        <h2>Hjælp</h2>
+
+        <div style="padding-bottom: 50px;">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-12 column">
+                        <div>
+                            <hr class="solid" style="border-color:#ccc">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p>Der er ingen information om hjælp at henter lige for øjeblikket da siden er under
+        udvikling. Det vides endnu ikke om der kommer information under denne fane.</p>
+
+    </div>
+    <footer th:replace="fragments :: footer"> </footer>
+</div>
 
 </body>
 </html>
