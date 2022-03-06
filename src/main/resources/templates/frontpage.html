@@ -19,14 +19,26 @@
 </div>
 <div class="content-area">
     <div class="wrapper">
-        <h2>Forside</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, esse est iste magni reprehenderit saepe
-            sint! Assumenda consectetur fugit sit tempore. Architecto blanditiis deleniti, est fuga iusto perspiciatis
-            suscipit voluptatibus! Ad alias assumenda autem deleniti esse est excepturi hic itaque, magnam magni nam
-            officia provident quae recusandae reiciendis rem sed. Adipisci animi aut autem deserunt dolore, ea eius
-            error ex facilis inventore ipsum minus modi nihil nostrum nulla, obcaecati porro reprehenderit repudiandae
-            sed sint sunt tempore vero. At dolores doloribus, dolorum ea eaque hic ipsa iusto libero minus natus neque
-            nisi nobis nostrum odio optio pariatur perspiciatis praesentium rerum sapiente.</p>
+        <h2>Madspil i Danmark</h2>
+        <p>
+            <span class="frontpage-start-text">
+            Madspild er, når vi smider mad ud, som kunne være spist.
+            I Danmark smider vi hvert år mere end 700.000 ton mad ud.
+            Madspild er skidt for miljøet og klimaet – og er penge lige i skraldespanden.
+            </span>
+            <span>
+            "Der er mad nok i verden, og alligevel sulter millioner.
+            Hvis vi ikke gør noget drastisk, kan det betyde en katastrofe for kloden"
+            – FN's Generalsekretær Ban Ki-moon.
+            Madspild handler ikke kun om, hvad der går til spilde i private hjem.
+            Det handler også om den mad, der går til spilde under dyrkning og produktion,
+            transport, håndtering og indpakning i butikkerne samt tilberedning og servering i restauranter og kantiner.
+            Hvert år smider butikker i Danmark omkring 163.000 ton mad ud.
+            Du kan hjælpe supermarkederne med at mindske madspild – lad være med at tage de varer, der har længst holdbarhed, hvis du ved, at du skal bruge maden samme dag, som du handler.
+            Køkkener på institutioner, restauranter og kantiner skaber hvert år næsten 60.000 ton madspild. Der bliver taget for meget ved buffeten. Der bliver levnet på tallerkenerne. Der er fade, som ikke bliver tømt.
+            Det er alt sammen mad, der ikke kan sælges, når butikken lukker, og derfor bliver det ofte smidt ud.
+            </span>
+        </p>
 
         <div style="padding-bottom: 50px; padding-top: 50px">
             <div class="container">
@@ -69,22 +81,23 @@
             </div>
         </div>
 
-        <div class="content-box text-align-right">
-            <a href="#"><img class="float-left" src="download.jpeg" alt=""></a>
+        <div class="content-box text-align-center">
+            <a th:href="@{Virksomhed}"><img class="float-left front-page" th:src="@{business-food.jpg}" alt=""></a>
             <div class="text-with-image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, esse est iste magni reprehenderit
-                    saepe sint! Assumenda consectetur fugit sit tempore. Architecto blanditiis deleniti, est fuga iusto
-                    perspiciatis suscipit voluptatibus! Ad alias assumenda autem deleniti esse est excepturi hic itaque,
-                    magnam magni nam officia provident quae recusandae reiciendis rem sed. Adipisci animi aut autem
-                    deserunt dolore, ea eius error ex facilis inventore ipsum minus modi nihil nostrum nulla, obcaecati
-                    porro reprehenderit repudiandae sed sint sunt tempore vero. At dolores doloribus, dolorum ea eaque
-                    hic ipsa iusto libero minus natus neque nisi nobis nostrum odio optio pariatur perspiciatis
-                    praesentium rerum sapiente.</p>
+                <p>
+                    <span class="frontpage-start-text">
+                    Til virksomheden
+            </span>
+                    Ifølge Miljø- og Fødevareministeriet står fødevarebranchen for to tredjedele af Danmarks totale madspild på 700.000 ton.
+                    Det svarer til 3,8 procent af Danmarks samlede CO2-udledning.
+                    Vi har lavet en underside om hvad du som virksomhed kan gøre for at mindske madspil.
+                </p>
+
             </div>
             <a th:href="@{Virksomhed}"><button class="button-style">Læs mere her</button></a>
         </div>
 
-        <div style="padding-bottom: 50px; padding-top: 50px">
+        <div style="padding-bottom: 50px; padding-top: 100px">
             <div class="container">
                 <div class="row clearfix">
                     <div class="col-md-12 column">
@@ -96,18 +109,17 @@
             </div>
         </div>
 
-        <div class="content-box text-align-left">
+        <div class="content-box text-align-left" style="margin-bottom: 100px">
             <div class="text-with-image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, esse est iste magni reprehenderit
-                    saepe sint! Assumenda consectetur fugit sit tempore. Architecto blanditiis deleniti, est fuga iusto
-                    perspiciatis suscipit voluptatibus! Ad alias assumenda autem deleniti esse est excepturi hic itaque,
-                    magnam magni nam officia provident quae recusandae reiciendis rem sed. Adipisci animi aut autem
-                    deserunt dolore, ea eius error ex facilis inventore ipsum minus modi nihil nostrum nulla, obcaecati
-                    porro reprehenderit repudiandae sed sint sunt tempore vero. At dolores doloribus, dolorum ea eaque
-                    hic ipsa iusto libero minus natus neque nisi nobis nostrum odio optio pariatur perspiciatis
-                    praesentium rerum sapiente.</p>
+                <p>
+                    <span class="frontpage-start-text">
+                    Til organisationen
+            </span>
+                    I Danmark har vi 31.000 ton madspil fra institutioner og storkøkkener om året.
+                    Se hvordan du kan hjælpe din organisation i kampen mod madspild.
+                </p>
             </div>
-            <a href="#"><img class="float-right" src="download.jpeg" alt=""></a>
+            <a th:href="@{Organisation}"><img class="float-right front-page" th:src="@{organisation-food.jpg}" alt=""></a>
             <a th:href="@{Organisation}"><button class="button-style">Læs mere her</button></a>
         </div>
 

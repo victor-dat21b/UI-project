@@ -69,6 +69,10 @@ header {
     text-align: right;
 }
 
+.text-align-center {
+    text-align: center;
+}
+
 img.front-page {
     width: 50%;
     height: 25%;
@@ -184,4 +188,10 @@ nav a:hover:before {
     font-size: 15px;
     margin-top: 30px;
     cursor: pointer;
+}
+
+.frontpage-start-text{
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
 }
